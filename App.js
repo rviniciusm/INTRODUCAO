@@ -4,6 +4,8 @@ import { StyleSheet, View } from 'react-native';
 //import HelloRN from './components/01HelloRN';
 //import MyCat from './components/03MyCat.jsx';
 import Questao01 from './components/Tarefa01/Questao01';
+//import Questao03 from './components/Tarefa01/03Questao03';
+
 
 export default function App() {
   return (
