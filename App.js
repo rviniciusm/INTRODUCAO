@@ -3,15 +3,16 @@ import { StyleSheet, View } from 'react-native';
 //import HelloRNV2 from './components/02HelloRNV1'; // Certifique-se de que o caminho para o arquivo está correto
 //import HelloRN from './components/01HelloRN';
 //import MyCat from './components/03MyCat.jsx';
-import Questao01 from './components/Tarefa01/Questao01';
+//import Questao01 from './components/Tarefa01/Questao01';
 //import Questao03 from './components/Tarefa01/03Questao03';
+//import MyTextImput from './components/07Textinout';
+//import JuntarFrases from './components/08JuntarFrases';
+import Calculadora from './components/09Calculadora/09Calculadora';
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      < Questao01 />
-    </View>
+      < Calculadora />
   );
 }
 
