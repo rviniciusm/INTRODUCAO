@@ -7,12 +7,16 @@ import { StyleSheet, View } from 'react-native';
 //import Questao03 from './components/Tarefa01/03Questao03';
 //import MyTextImput from './components/07Textinout';
 //import JuntarFrases from './components/08JuntarFrases';
-import Calculadora from './components/09Calculadora/09Calculadora';
+//import Calculadora from './components/09Calculadora/09Calculadora';
+//import MyScrollView from './components/10MyScrollView';
+//import MyFlatList from './components/11MyFlatList';
+//import MyFlexBox from './components/13Flexbox/13FlexboxA';
+import MyFlexBox from './components/13Flexbox/13FlexboxA';
 
 
 export default function App() {
   return (
-      < Calculadora />
+      < MyFlexBox/>
   );
 }
 
