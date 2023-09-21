@@ -11,16 +11,32 @@ import { StyleSheet, View } from 'react-native';
 //import MyScrollView from './components/10MyScrollView';
 //import MyFlatList from './components/11MyFlatList';
 //import MyFlexBox from './components/13Flexbox/13FlexboxA';
-import MyFlexBox from './components/13Flexbox/13FlexboxA';
+//import MyFlexBox from './components/13Flexbox/13FlexboxA';
+//import MyNetworking from './components/14Networking/14MyNetworking';
+//import MainScreen from './components/15NavigationAula/15NavStack/MainScreen';
 
 
-export default function App() {
+
+function App() {
   return (
-      < MyFlexBox/>
+    <NavigationContainer>
+     <Home/>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
+export default App;
+
+
+
+
+
+
+
+
+
+
+/*const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
@@ -36,4 +52,4 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "green",
   }
-});
+});*/
