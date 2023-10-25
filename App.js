@@ -14,14 +14,15 @@ import { StyleSheet, View } from 'react-native';
 //import MyFlexBox from './components/13Flexbox/13FlexboxA';
 //import MyNetworking from './components/14Networking/14MyNetworking';
 //import MainScreen from './components/15NavigationAula/15NavStack/MainScreen';
-
-
+//import Navigation from './components/Tarefa01/Tarefa02/Navigation';
+//import MainScreen from './components/15NavigationAula/15NavStack/MainScreen';
+//import PokemonApp from './components/16Pokemon/PokemonApp';
+import Questao01 from './components/PROVA_AP1/Questao01'; 
+//import Questao02 from './components/PROVA_AP1/Questao2';
 
 function App() {
   return (
-    <NavigationContainer>
-     <Home/>
-    </NavigationContainer>
+    < Questao01/>
   );
 }
 
@@ -36,7 +37,7 @@ export default App;
 
 
 
-/*const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
@@ -52,4 +53,4 @@ export default App;
     fontWeight: "bold",
     color: "green",
   }
-});*/
+})

@@ -11,9 +11,7 @@ const MyCat = () => {
 
     return (
         <View>
-            <Text style={{fontSize:20}}> 
-            O nome do gato é  {getFullName("Czar", "Rurik")}
-            </Text>
+            <Text style={{fontSize:20}}>O nome do gato é  {getFullName("Czar", "Rurik")} </Text>
             
         </View>
         
