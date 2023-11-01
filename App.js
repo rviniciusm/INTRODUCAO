@@ -6,7 +6,7 @@ import { StyleSheet, View } from 'react-native';
 //import Questao01 from './components/Tarefa01/Questao01';
 //import Questao03 from './components/Tarefa01/03Questao03';
 //import MyTextImput from './components/07Textinout';
-//import JuntarFrases from './components/08JuntarFrases';
+import JuntarFrases from './components/08JuntarFrases';
 //import Calculadora from './components/09Calculadora/09Calculadora';
 //import MyScrollView from './components/10MyScrollView';
 //import MyFlatList from './components/11MyFlatList';
@@ -17,12 +17,12 @@ import { StyleSheet, View } from 'react-native';
 //import Navigation from './components/Tarefa01/Tarefa02/Navigation';
 //import MainScreen from './components/15NavigationAula/15NavStack/MainScreen';
 //import PokemonApp from './components/16Pokemon/PokemonApp';
-import Questao01 from './components/PROVA_AP1/Questao01'; 
+//import Questao01 from './components/PROVA_AP1/Questao01'; 
 //import Questao02 from './components/PROVA_AP1/Questao2';
 
 function App() {
   return (
-    < Questao01/>
+    < JuntarFrases/>
   );
 }
 
